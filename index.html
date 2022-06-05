@@ -2,134 +2,394 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Résumé</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://kit.fontawesome.com/bce67d9c9c.js" crossorigin="anonymous"></script>
+    <meta name="description" content="My very own personal website.">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yevhen Turovets - Résumé</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="me" href="mailto:yevhen.turovets@gmail.com">
+    <link rel="me" href="tel:+380689926250">
+    <link rel="stylesheet" href="./assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
   </head>
   <body>
-    <main>
-        <div class="resume">
-            <div class="container">
-                <div class="resume__block">
-                <h1 class="contact-info__header">Bulka</h1>
-                <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
-        
-                <div class="contact_info_container fh">
-                    <div class="contact-info__block">
-                        <a href="" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                            <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                <path
-                                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                </path>
-                            </svg>
-                            </div>
-                            <span>Lviv, Ukraine</span>
-                        </a>
-                    </div>
-                
-                    <div class="contact-info__block contact-info__block--center">
-                    <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
-                    </div>
-        
-                    <div class="contact-info__block">
-                        <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                            <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                                </path>
-                            </svg>
-                            </div>
-                            <span>binary-studio</span>
-                        </a>
-                    </div>
-                </div>
-                </div>
+  <div id="photos">
+    <a href="#resume" title="Hide other photos" class="close">Close</a>
+    <div class="photos">
+      <noscript>
+        <img src="./assets/photos/1-min.JPG" alt="It's me">
+        <img src="./assets/photos/3-min.JPG" alt="This is my family. Cat and dog hid =)">
+        <img src="./assets/photos/4-min.JPG" alt="The working process">
+        <img src="./assets/photos/5-min.JPG" alt="Each programmer is simply obliged to work a little on vacation ... but we know that between a little and all night a little difference">
+        <img src="./assets/photos/6-min.JPG" alt="Rest">
+        <img src="./assets/photos/7-min.JPG" alt="Citius! Altius! Fortius!">
+        <img src="./assets/photos/8-min.JPG" alt="Quarantined work">
+        <img src="./assets/photos/9-min.JPG" alt="My live">
+        <img src="./assets/photos/10-min.JPG" alt="Pink =)">
+        <img src="./assets/photos/11-min.JPG" alt="Через степи чёрные и поля зеленые...">
+      </noscript>
+    </div>
+  </div>
+  <main>
+    <article>
+      <div class="page" style="border-color: midnightblue;">
+        <div class="stackable grid">
+          <div class="row">
+            <div class="four wide center aligned column">
+              <!-- Avatar -->
+              <div class="avatar-wrapper">
+                <object class="avatar" data="./assets/images/avatar.svg" role="img" aria-label="My profile picture"></object>
+              </div>
+              <a id="resume" href="#photos" title="Show other photos">
+                <em>Click, if you want to see other photos</em>
+              </a>
             </div>
-            <div class="container">
-                <div class="resume__block">
-                  <div class="intro">
-                    <div class="intro__icon-wrapper">
-                      <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path
-                          d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
-                        </path>
-                      </svg>
-                    </div>
-                    <p class="intro_text">Meow.
-                      I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil, 
-                      all I do is sleep and try to help out hoomans with their projects whenever 
-                      they need me.
-                    </p>
-                  </div>
+            <div class="twelve wide column">
+              <div class="stackable grid">
+                <div class="sixteen wide column">
+                  <!-- Name, job, contacts -->
+                  <h1 class="name">Yevhen Turovets</h1>
+                  <ul class="contacts">
+                    <li>
+                      <a href="mailto:yevhen.turovets@gmail.com" rel="author" class="mail">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                          </path>
+                        </svg>
+                        <span>yevhen.turovets@gmail.com</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank"  href="https://linkedin.com/in/yevhen-turovets/" rel="author" class="linkedin">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path
+                                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                        <span>yevhen-turovets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank"  href="https://github.com/yevhen-turovets" rel="author" class="github">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                          <path
+                                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                        <span>yevhen-turovets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank"  href="https://www.facebook.com/yevhen.turovets/" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h7.621v-6.961h-2.343v-2.725h2.343V9.309 c0-2.324,1.421-3.591,3.495-3.591c0.699-0.002,1.397,0.034,2.092,0.105v2.43h-1.428c-1.13,0-1.35,0.534-1.35,1.322v1.735h2.7 l-0.351,2.725h-2.365V21H19c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z">
+                          </path>
+                        </svg>
+                        <span>Yevhen.Turovets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank"  href="https://t.me/yevhen-turovets" rel="author" class="telegram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                                d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                          </path>
+                        </svg>
+                        <span>@yevhen-turovets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.instagram.com/yevhen.turovets/" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z">
+                          </path>
+                        </svg>
+                        <span>Yevhen.Turovets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+380689926250" rel="author" class="phone">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+                        <span>+38 (068) 992 62 50</span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-            <div class="container">
-                <div class="resume__block">
-                  <div class="skills">
-                    <h3 class="skills__header">Skills</h3>
-                    <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
-                  </div>
+                <div class="sixteen wide mobile only column">
+                  <div class="divider"></div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="resume__block">
-                  <div class="main-info fh">
-              
-                    <div class="experiences">
-                        <div class="experiences">
-                            <h3 class="experiences__header">Experience</h3>
-                            <div class="experiences__company">
-                              <div class="experiences__company-header">
-                                <span class="experiences__company-header-durability">For whole my life</span>
-                                <h3 class="experiences__company-header-name">BinaryStudio</h3>
-                              </div>
-                          
-                              <div class="experiences__company-project">
-                                <span class="experiences__company-project-role">Binary Studio Cat</span>
-                                <h3 class="experiences__company-project-name">Hooman project</h3>
-                                <ul class="experiences__company-project-responsibilities">
-                                  <li>Supported hoomans</li>
-                                  <li>Slept all the time</li>
-                                  <li>Lied on the keyboard</li>
-                                  <li>Watched my hoomans working</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-              
-                    <div class="additional-info fv">
-                        <div class="additional-info fv">
-                            <div class="additional-info__education">
-                              <h3 class="additional-info__education-header">Education</h3>
-                              <div class="additional-info__education-university">
-                                <span class="additional-info__education-university-durability">2021</span>
-                                <h3 class="additional-info__education-university-speciality">Cat track</h3>
-                                <p class="additional-info__education-university-name">Binary Studio Academy</p>
-                              </div>
-                            </div>
-                          
-                            <div class="additional-info__languages">
-                              <h3 class="additional-info__languages-header">Languages</h3>
-                              <p class="additional-info__languages-item">
-                                Meow dialect
-                              </p>
-                              <p class="additional-info__languages-item">
-                                Ukrainian (understand)
-                              </p>
-                              <p class="additional-info__languages-item">
-                                English (don't understand)
-                              </p>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
+                <div class="sixteen wide column">
+                  <!-- Intro -->
+                  <h2>Resume</h2>
+                  <p>
+                    Hello! I am a php full stack developer. I’ve been working on the Internet since 2011. I have experience working as a programmer, system administrator, sales manager, project manager, hr manager, teacher ... it happens when you are a freelancer &#129335;&#8205;&#9794;&#65039; <br>
+                    But I gave myself completely to each of these areas and did the job 100%</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide column">
+              <div class="fat divider"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ten wide column">
+              <!-- Experience -->
+              <h3>EXPERIENCE</h3>
+              <h6>Maybe in the future &#128521;</h6>
+              <ul class="timeline">
+                <li>
+                  <p><em>Around 2021</em></p>
+                  <p><strong>Relocation to</strong> Kharkov</p>
+                </li>
+              </ul>
+              <h6>Now</h6>
+              <ul class="timeline">
+                <li class="highlighted">
+                  <p><em>1<sup>st</sup> May 2019 - present</em></p>
+                  <p><strong>Looking</strong> for yourself</p>
+                </li>
+              </ul>
+              <h6>Like yesterday</h6>
+              <ul class="timeline">
+                <li>
+                  <p><em>25<sup>th</sup> November 2017</em></p>
+                  <p><strong>Got</strong> a biometric passport&#127796;</p>
+                </li>
+                <li>
+                  <p><em>7<sup>th</sup> April 2015</em></p>
+                  <p><strong>Was born</strong> my son <a target="_blank"  href="https://www.instagram.com/max.turovets/" rel="external">Maxim</a>&#128564;</p>
+                </li>
+                <li class="details">
+                  <p><em>2014</em></p>
+                  <input type="checkbox" id="moved">
+                  <label for="moved" class="summary">Moved much</label>
+                  <div>
+                    <ul>
+                      <li>
+                        <p><em>December 2014</em></p>
+                        <p><strong>Relocation</strong> to <a target="_blank"  href="https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA" rel="external">Ivano-Frankivsk</a></p>
+                      </li>
+                      <li>
+                        <p><em>September 2014</em></p>
+                        <p><strong>Relocation</strong> to <a target="_blank"  href="https://ru.wikipedia.org/wiki/%D0%94%D1%80%D1%83%D0%B6%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0" rel="external">Druzhkovka</a></p>
+                      </li>
+                      <li>
+                        <p><em>May 2014</em></p>
+                        <p><strong>Relocation</strong> to <a target="_blank"  href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2" rel="external">Nikolaev</a></p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <p><em>7<sup>th</sup> September 2013</em></p>
+                  <p><strong>Married</strong> to <a target="_blank"  href="https://www.instagram.com/anya_turovets/" rel="external">Anna Pirus</a></p>
+                </li>
+                <li>
+                  <p><em>1<sup>st</sup> October 2013 &ndash; 30<sup>th</sup> April 2014</em></p>
+                  <p><strong>Organized</strong> web programming courses and taught the basics &#129318;&#8205;&#9794;&#65039;</p>
+                </li>
+                <li>
+                  <p><em>February 2012</em></p>
+                  <p><strong>Became</strong> the best “Sheriff” in the “Mafia” game of the autumn/winter 2011 season in one of the strongest clubs in Ukraine</p>
+                  <ul>
+                    <li>what were great times and games</li>
+                  </ul>
+                </li>
+                <li class="details">
+                  <p><em>27<sup>st</sup> September 2012 &ndash; 30<sup>th</sup> April 2019</em></p>
+                  <p><strong>Owner and CEO</strong> at <strong>Web Studio "Safrasoft"</strong></p>
+                  <input type="checkbox" id="safrasoft">
+                  <label for="safrasoft" class="summary">There were busy days</label>
+                  <div>
+                    <a target="_blank"  href="https://realnoevremya.ru/uploads/articles/46/af/14698e7451c8ea7f.jpg" rel="external">what i looked like</a>
+                      <ul>
+                        <li>engaged in the organization of the work process</li>
+                        <li>looked for, hired and trained employees</li>
+                        <li>looking for customers</li>
+                        <li>served as projects manager</li>
+                        <li>set up and maintain its own and client servers</li>
+                        <li>developed sites on CMS 1C-Bitrix, CMS Joomla</li>
+                        <li>engaged in SEO website optimization</li>
+                      </ul>
+                  </div>
+                </li>
+                <li class="details">
+                  <p><em>1<sup>st</sup> March 2012 &ndash; 20<sup>th</sup> September 2012</em></p>
+                  <input type="checkbox" id="fl">
+                  <label for="fl" class="summary">
+                    <strong>Full Stack Developer</strong> at <strong><a target="_blank"  href="https://fl.ru" rel="external">fl.ru</a></strong>
+                  </label>
+                  <div>
+                  <ul>
+                    <li>created site layout</li>
+                    <li>developed sites on CMS 1C-Bitrix, CMS Joomla</li>
+                    <li>engaged in SEO website optimization</li>
+                  </ul>
+                  </div>
+                </li>
+                <li class="details">
+                  <p><em>15<sup>th</sup> July 2011 &ndash; 24<sup>th</sup> February 2012</em></p>
+                  <input type="checkbox" id="elephant">
+                  <label for="elephant" class="summary">
+                    <strong>Junior PHP developer</strong> at <strong><a target="_blank"  href="https://slon.org.ua/" rel="external">Digital studio "ELEPHANT"</a></strong>
+                  </label>
+                  <div>
+                    <ul>
+                      <li>got the first experience</li>
+                      <li>did not receive the last three salaries</li>
+                      <li>pay for experience</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <p><em>10<sup>th</sup> September 2010 &ndash; 30<sup>th</sup> March 2011</em></p>
+                  <p><strong>PHP developer</strong> at <strong><a target="_blank"  href="https://dn.vgorode.ua/reference/pressa/23887-okean-ynformatsyy-hazeta" rel="external">newspaper "Ocean of Information"</a></strong></p>
+                  <ul>
+                    <li>tried to create a social network that will be cooler vk.ru</li>
+                  </ul>
+                </li>
+                <li>
+                  <p><em>26<sup>th</sup> February 2008</em></p>
+                  <p><strong>Received</strong> a category B driver's license</p>
+                </li>
+                <li>
+                  <p><em>1<sup>st</sup> June 2007 &ndash; 28<sup>th</sup> July 2007</em></p>
+                  <p><strong>Worked</strong> assistant waiter at <strong><a target="_blank"  href="https://nastroenie.life/places/restoran-golden-lion/" rel="external">PUB "Golden Lione"</a></strong></p>
+                </li>
+                <li>
+                  <p><em>14<sup>th</sup> March 2006</em></p>
+                  <p><strong>Received</strong> a passport of Ukraine</p>
+                </li>
+                <li class="details">
+                  <p><em>October 2005 &ndash; July 2010</em></p>
+                  <p><strong>Was engaged</strong> in track and field in the sports school №1 in Donetsk &#127939;</p>
+                  <input type="checkbox" id="run">
+                  <label for="run" class="summary">My achievements</label>
+                  <div>
+                    <ul>
+                      <li>repeated medalist of the region in 800 meters</li>
+                      <li>candidate Master of Sports</li>
+                      <li>faster, higher, stronger!</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <p><em>January 2003 &ndash; June 2003</em></p>
+                  <p><strong>Studied</strong> the basics of programming and Pascal language<br>
+                    <sup><em>...in some dubious office</em></sup></p>
+                </li>
+                <li>
+                  <p><em>6<sup>th</sup> March 1992</em></p>
+                  <p><strong>Born</strong> my brother Bogdan</p>
+                </li>
+                <li>
+                  <p><em>23<sup>th</sup> December 1989</em></p>
+                  <p><strong>Born</strong> in Donetsk</p>
+                </li>
+              </ul>
+            </div>
+            <div class="six wide column">
+              <!-- Languages -->
+              <section>
+                <h3>LANGUAGES</h3>
+                <p class="tags small"><a href="./uk-ua/" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> <a href="./ru-ru/" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+              </section>
+              <!-- Skills -->
+              <section class="skills">
+                <h3>SKILLS</h3>
+                <div class="labels">
+                  <span class="label">MICROSOFT OFFICE</span>
+                  <span class="label">HTML</span>
+                  <span class="label">CSS</span>
+                  <span class="label">PHP</span>
+                  <span class="label">OOP</span>
+                  <span class="label">PHOTOSHOP</span>
+                  <span class="label">GIT</span>
+                  <span class="label">JS </span>
+                  <span class="label">JQUERY</span>
+                  <span class="label">AJAX</span>
+                  <span class="label">ENGLISH LANGUAGE</span>
+                  <span class="label">RESTAPI</span>
+                  <span class="label">BOOTSTRAP</span>
+                  <span class="label">CMS JOOMLA</span>
+                  <span class="label">CMS 1C-BITRIX</span>
+                  <span class="label">MacOS</span>
+                  <span class="label">LARAVEL</span>
+                  <span class="label">SQL</span>
+                  <span class="label">HTTP</span>
+                  <span class="label">SOLID PRINCIPE</span>
+                  <span class="label">CODE QUALITY</span>
+                  <span class="label">DESIGN PATTERNS</span>
+                  <span class="label">SEO</span>
+                </div>
+              </section>
+              <!-- Wants -->
+              <section>
+                <h3>WHANTS&#x1f97a;</h3>
+                <p class="tags small bulleted"><span class="tag">FIND A NEW GOAL IN LIFE</span><span class="tag">SECOND CHILD</span><span class="tag">WORK WITH INTERESTING PEOPLE AND PROJECTS</span><span class="tag">DEVELOP</span><span class="tag">DEVELOP</span><span class="tag">AND DEVELOP AGAIN!</span><span class="tag">BE HEALTHY</span><span class="tag">RELOCATE TO THE DNIPRO OR KHARKOV</span><span class="tag">MAKE A PROFIT FROM REAL ESTATE</span></p>
+              </section>
+              <section>
+                <h3>Likes&#x1f603;</h3>
+                <p class="tags small">FC SHAKHTAR QUESTS BOOMBOX WATCH MOVIES FISHING RUN UNDER HEAT RAIN PLANNING JOURNEY PLAY WITH SON BUY GIFTS GOOD RESTAURANTS PLAY BOARD GAMES PREPARE MAFIA KING IN THE SHOWER KING IN THE CAR PREPARE PARTIES TO PASS</p>
+              </section>
+              <section>
+                <h3>Dislikes&#x1f61e;</h3>
+                <p class="tags small">GET SICK
+                  LATE EXPENSIVE WATER AT THE AIRPORT BAD ROADS COLD QUARANTINE CALLS FOR MY BIRTHDAY WHEN PEOPLE BREAK THE RULES LONELINESS CORNERS</p>
+              </section>
+              <!-- Education -->
+              <section>
+                <h6>EDUCATION</h6>
+                <ul class="timeline">
+                  <li>
+                    <div><em>September 2010 &ndash; May 2014</em></div>
+                    <div><strong>Incomplete education</strong> in Department of Physical Education at <a target="_blank"  href="https://dn.vgorode.ua/reference/vuzy/283-hosudarstvennyi-ynstytut-zdorovia-fyzycheskoho-vospytanyia-y-sporta" rel="external"><strong>Donetsk State Institute of Health, Physical Education and Sports</strong></a></div>
+                  </li>
+                  <li>
+                    <div><em>1<sup>st</sup> September 2009 &ndash; 24<sup>th</sup> February 2013</em></div>
+                    <div><strong>Bachelor's degree</strong> in <strong>computer systems design</strong> at <a target="_blank"  href="http://donntu.org/" rel="external"><strong>Donetsk National Technical University</strong></a></div>
+                  </li>
+                  <li>
+                    <div><em>1<sup>st</sup> September 2005 &ndash; 7<sup>rd</sup> June 2009</em></div>
+                    <div><strong>Junior Specialist degree</strong> with honours in <strong>computer science</strong> at <a target="_blank" href="https://dn.vgorode.ua/reference/tekhnykumy_uchylyscha_y_kolledzhy/16600-donetskyi-tekhnykum-promyshlennoi-avtomatyky" rel="external"><strong>Donetsk College of Industrial Automation </strong></a></div>
+                  </li>
+                  <li>
+                    <div><em>1<sup>st</sup> September 1996 &ndash; 19<sup>st</sup> June 2005</em></div>
+                    <div><strong>Certificate of graduation</strong> at <strong>Educational complex №1</strong></div>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
         </div>
-      </main>     
+      </div>
+    </article>
+  </main>
+  <script>
+		function replaceNoscript(noscript) {
+			var parent = noscript.parentElement;
+			Array.prototype.slice.call((new DOMParser()).parseFromString(noscript.textContent, "text/html").body.children).forEach(function(element) {
+				parent.insertBefore(element, noscript);
+			});
+			parent.removeChild(noscript);
+		}
+		function callFuncOnCollection(collection, func) {
+			Array.prototype.slice.call(collection).map(function (item) {
+				func(item);
+			});
+		}
+		var childhoodPhotos = document.getElementById("photos").getElementsByClassName("photos")[0];
+		document.getElementById("resume").addEventListener("click", function() {
+			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		});
+		if (window.location.hash === "#photos") {
+			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		}
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function() {
+				navigator.serviceWorker.register('/sw.js');
+			});
+		}
+	</script>
   </body>
 </html>
