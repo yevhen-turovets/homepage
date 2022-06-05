@@ -21,4 +21,10 @@ In this release, I tried to correct errors of previous releases, correct the tex
 - redid the display of the block of skills
 - fixed html and css validation errors 
 
+## Version 3.0
+In this release, I fixed issue with information and updated information:
+- added new photos to the gallery
+- updated education block
+- updated expirience block
+
 This is beautiful!
